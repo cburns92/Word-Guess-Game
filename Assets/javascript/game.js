@@ -57,7 +57,7 @@ var words = ['duster','train','outhouse','armadillo','bobcat','buffalo','cactus'
             this.$right.textContent = '_'.repeat(this.word.length);
             this.$remain.textContent = 7;
             this.$wrong.textContent = "";
-            this.guessed.Length = 0;
+            this.guessed.length = 0;
         }
       };
 
