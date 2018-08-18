@@ -1,7 +1,7 @@
 var words = ['cat','dog','goat','xylophone','sasquatch','cowboy','hangman','desperado','cattle','saloon'];
       var game = {
         guessed: [],
-        attempts: 12,
+        attempts: 7,
         wins: 0,
         start: function() {
             this.complete = false;
