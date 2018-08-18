@@ -1,0 +1,32 @@
+img{
+    margin:30%;
+}
+
+.card{
+    width: 30%;
+    height: 50%;
+    margin-left:10%;
+    margin-top:10%;
+    border: grey solid 2px;
+    background-image:url(../images/paper.jpg)
+    
+}
+
+.card-title{
+    text-align:center;
+}
+
+.card-subtitle{
+    text-align:center;
+}
+
+#subtitle{
+    border-bottom: black solid 5px;
+    padding: 1%;
+}
+
+body{
+    background-image:url(../images/wild-west.jpg)
+}
+
+
