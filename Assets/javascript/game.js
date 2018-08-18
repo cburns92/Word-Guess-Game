@@ -1,4 +1,4 @@
-var words = ['cat', 'dog', 'goat'];
+var words = ['cat','dog','goat','xylophone','sasquatch','cowboy','hangman','desperado','cattle','saloon'];
       var game = {
         guessed: [],
         attempts: 12,

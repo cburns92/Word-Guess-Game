@@ -25,6 +25,10 @@ img{
     padding: 1%;
 }
 
+#selected-word{
+    letter-spacing: 5px;
+}
+
 body{
     background-image:url(../images/wild-west.jpg)
 }
