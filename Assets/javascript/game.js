@@ -55,7 +55,8 @@ var words = ['duster','train','outhouse','armadillo','bobcat','buffalo','cactus'
             this.complete = false;
             this.word = words[Math.floor(Math.random() * words.length)];
             this.$right.textContent = '_'.repeat(this.word.length);
-            this.$remain.textContent = 7;
+            this.attempts = 7;
+            this.$remain.textContent = this.attempts;
             this.$wrong.textContent = "";
             this.guessed.length = 0;
         }
