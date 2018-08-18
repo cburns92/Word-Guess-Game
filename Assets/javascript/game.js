@@ -57,7 +57,7 @@ var words = ['cat','dog','goat','xylophone','sasquatch','cowboy','hangman','desp
             this.$right.textContent = '_'.repeat(this.word.length);
             this.$remain.textContent = 7;
             this.$wrong.textContent = "";
-            this.guessed = [];
+            this.guessed.Length = 0;
         }
       };
 
