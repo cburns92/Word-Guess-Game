@@ -55,7 +55,7 @@ var words = ['cat','dog','goat','xylophone','sasquatch','cowboy','hangman','desp
             this.complete = false;
             this.word = words[Math.floor(Math.random() * words.length)];
             this.$right.textContent = '_'.repeat(this.word.length);
-            this.$remain.textContent = 12;
+            this.$remain.textContent = 7;
             this.$wrong.textContent = "";
             this.guessed = [];
         }
